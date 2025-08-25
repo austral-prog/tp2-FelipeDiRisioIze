@@ -3,12 +3,12 @@ def change():
     money = 100
     change = money - expense
 
-pesos = int(change)
-centavos = int((change * 100) - (pesos * 100))
+    pesos = int(change)
+    centavos = int((change * 100) - (pesos * 100))
 
-print("\nVuelto\n")
-print("Pesos:")
-print(pesos)
-print("Centavos")
-print(centavos)
+    print("\nVuelto\n")
+    print("Pesos:")
+    print(pesos)
+    print("Centavos")
+    print(centavos)
 
